@@ -2,22 +2,22 @@
 
 evaluate-commands %sh{
     bg0="rgb:282828"
-    bg0_h="rgb:1d2021"
-    bg0_s="rgb:32302f"
+    bg0_hard="rgb:1d2021"
+    bg0_soft="rgb:32302f"
+
     bg1="rgb:3c3836"
     bg2="rgb:504945"
     bg3="rgb:665c54"
     bg4="rgb:7c6f64"
-    bg4_256="rgb:7c6f64"
 
     fg0="rgb:fbf1c7"
-    fg0_h="rgb:f9f5d7"
-    fg0_s="rgb:f2e5bc"
+    fg0_hard="rgb:f9f5d7"
+    fg0_soft="rgb:f2e5bc"
+
     fg1="rgb:ebdbb2"
     fg2="rgb:d5c4a1"
     fg3="rgb:bdae93"
     fg4="rgb:a89984"
-    fg4_256="rgb:a89984"
 
     # Bright Colors
     b_red="rgb:fb4934"
@@ -72,9 +72,9 @@ evaluate-commands %sh{
         face global block     default
         face global link      ${b_blue}
         face global bullet    ${b_red}
-        face global list      ${b_red}
+        face global list      default
 
-        face global Default            ${fg0},${bg0_s}
+        face global Default            ${fg0},${bg0_soft}
         face global PrimarySelection   default,${bg2}
         face global SecondarySelection default,${bg1}
         face global PrimaryCursor      ${bg0},${fg0}
@@ -83,7 +83,7 @@ evaluate-commands %sh{
         face global SecondaryCursorEol ${bg0},${fg4}
         face global LineNumbers        ${bg3}
         face global LineNumberCursor   ${fg3}
-        face global LineNumbersWrapped ${bg0_s}
+        face global LineNumbersWrapped ${bg0_soft}
         face global MenuForeground     ${fg1},${bg3}+b
         face global MenuBackground     default,${bg2}
         face global MenuInfo           ${b_blue}
@@ -96,7 +96,7 @@ evaluate-commands %sh{
         face global StatusCursor       ${bg0},${fg0}
         face global Prompt             default
         face global MatchingChar       default,${bg3}
-        face global BufferPadding      ${bg0_s},${bg0_s}
+        face global BufferPadding      ${bg0_soft},${bg0_soft}
         face global Whitespace         ${bg2}+f
     "
 }
