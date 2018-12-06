@@ -9,7 +9,7 @@ Base16 Gruvbox Dark Soft variant colorscheme for Kakoune editor. Based on Vim's 
 
 ```kak
 plug "andreyorst/base16-gruvbox.kak" noload do %{
-    ln -sf ./colors/base16-gruvbox-dark-soft.kak` $HOME/.config/kak/colors
+    ln -sf $PWD/colors/base16-gruvbox-dark-soft.kak` $HOME/.config/kak/colors
 } config %{
     colorscheme base16-gruvbox-dark-soft
 }
