@@ -83,7 +83,7 @@ evaluate-commands %sh{
         face global SecondaryCursorEol ${bg0},${fg4}
         face global LineNumbers        ${bg3}
         face global LineNumberCursor   ${fg3}
-        face global LineNumbersWrapped ${bg0_soft}
+        face global LineNumbersWrapped ${bg0}
         face global MenuForeground     ${fg1},${bg3}+b
         face global MenuBackground     default,${bg2}
         face global MenuInfo           ${b_blue}
@@ -96,7 +96,7 @@ evaluate-commands %sh{
         face global StatusCursor       ${bg0},${fg0}
         face global Prompt             default
         face global MatchingChar       default,${bg3}
-        face global BufferPadding      ${bg0_soft},${bg0_soft}
+        face global BufferPadding      ${bg0},${bg0}
         face global Whitespace         ${bg2}+f
     "
 }
