@@ -75,12 +75,12 @@ evaluate-commands %sh{
         face global list      default
 
         face global Default            ${fg0},${bg0_soft}
-        face global PrimarySelection   default,${bg2}
-        face global SecondarySelection default,${bg1}
-        face global PrimaryCursor      ${bg0},${fg0}
-        face global SecondaryCursor    ${bg0},${fg3}
-        face global PrimaryCursorEol   ${bg0},${fg2}
-        face global SecondaryCursorEol ${bg0},${fg4}
+        face global PrimarySelection   default,${bg2}+fg
+        face global SecondarySelection default,${bg1}+fg
+        face global PrimaryCursor      ${bg0},${fg0}+fg
+        face global SecondaryCursor    ${bg0},${fg3}+fg
+        face global PrimaryCursorEol   ${bg0},${fg2}+fg
+        face global SecondaryCursorEol ${bg0},${fg4}+fg
         face global LineNumbers        ${bg3}
         face global LineNumberCursor   ${fg3}
         face global LineNumbersWrapped ${bg0_soft}
