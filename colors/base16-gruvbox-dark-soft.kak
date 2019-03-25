@@ -53,7 +53,7 @@ evaluate-commands %sh{
         face global value     ${b_orange}
         face global type      ${b_yellow}
         face global variable  ${b_blue}
-        face global module    ${f_orange}
+        face global module    ${f_yellow}
         face global function  ${b_blue}
         face global string    ${b_green}
         face global keyword   ${b_purple}
