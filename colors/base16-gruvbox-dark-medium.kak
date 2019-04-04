@@ -64,15 +64,17 @@ evaluate-commands %sh{
         face global builtin   default+b
 
         # Markdown highlighting
-        face global title     ${b_green}+b
-        face global header    ${b_orange}
-        face global bold      ${fg0}+b
-        face global italic    ${fg1}
-        face global mono      ${fg2}
-        face global block     default
-        face global link      ${b_blue}
-        face global bullet    ${b_red}
-        face global list      default
+        face global title         ${b_green}+b
+        face global header        ${b_blue}
+        face global bold          ${fg1}+b
+        face global italic        ${fg1}+i
+        face global underline     ${fg1}+u
+        face global strikethrough ${fg1}+u
+        face global mono          ${fg2}
+        face global block         ${fg3}
+        face global link          ${b_aqua}
+        face global bullet        ${b_red}
+        face global list          default
 
         face global Default            ${fg0},${bg0}
         face global PrimarySelection   default,${bg2}+g
