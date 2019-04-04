@@ -69,7 +69,7 @@ evaluate-commands %sh{
         face global bold          ${fg1}+b
         face global italic        ${fg1}+i
         face global underline     ${fg1}+u
-        face global strikethrough ${fg1}+u
+        face global strikethrough ${bg3}
         face global mono          ${fg2}
         face global block         ${fg3}
         face global link          ${b_aqua}
