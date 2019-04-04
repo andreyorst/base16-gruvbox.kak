@@ -66,9 +66,9 @@ evaluate-commands %sh{
         # Markdown highlighting
         face global title         ${b_green}+b
         face global header        ${b_blue}
-        face global bold          ${fg1}+b
-        face global italic        ${fg1}+i
-        face global underline     ${fg1}+u
+        face global bold          ${fg0}+ba
+        face global italic        ${fg0}+ia
+        face global underline     ${fg0}+ufa
         face global strikethrough ${bg3}
         face global mono          ${fg2}
         face global block         ${fg3}
