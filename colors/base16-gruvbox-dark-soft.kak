@@ -63,18 +63,21 @@ evaluate-commands %sh{
         face global meta      ${b_red}
         face global builtin   default+b
 
-        # Markdown highlighting
+        # Markup
         face global title         ${b_green}+b
-        face global header        ${b_blue}
-        face global bold          ${fg0}+ba
-        face global italic        ${fg0}+ia
-        face global underline     ${fg0}+ufa
+        face global header        ${b_blue}+b
+        face global section       ${b_aqua}
+        face global subsection    ${b_purple}
+        face global subsubsection ${purple}
+        face global bold          default,default+ba
+        face global italic        default,default+ia
+        face global underline     default,default+ufa
         face global strikethrough ${bg3}
         face global mono          ${fg2}
         face global block         ${fg3}
         face global link          ${b_aqua}
         face global bullet        ${b_red}
-        face global list          default
+        face global list          ${fg0}
 
         face global Default            ${fg0},${bg0_soft}
         face global PrimarySelection   default,${bg2}+g
@@ -97,7 +100,7 @@ evaluate-commands %sh{
         face global StatusLineValue    ${b_red}
         face global StatusCursor       ${bg0},${fg0}
         face global Prompt             default
-        face global MatchingChar       default,${bg3}
+        face global MatchingChar       default,${bg2}
         face global BufferPadding      ${bg0_soft},${bg0_soft}
         face global Whitespace         ${bg2}+f
     "
