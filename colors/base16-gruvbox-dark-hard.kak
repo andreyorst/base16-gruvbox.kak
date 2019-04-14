@@ -75,7 +75,7 @@ evaluate-commands %sh{
         face global strikethrough ${bg3}
         face global mono          ${fg2}
         face global block         ${fg3}
-        face global link          ${b_aqua}
+        face global link          ${b_aqua}+u
         face global bullet        ${b_red}
         face global list          ${fg0}
 
