@@ -66,9 +66,6 @@ evaluate-commands %sh{
         # Markup
         face global title         ${b_green}+b
         face global header        ${b_blue}+b
-        face global section       ${b_aqua}
-        face global subsection    ${b_purple}
-        face global subsubsection ${purple}
         face global bold          default,default+ba
         face global italic        default,default+ia
         face global underline     default,default+ufa
