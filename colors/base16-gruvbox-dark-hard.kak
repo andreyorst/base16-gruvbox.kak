@@ -52,12 +52,12 @@ evaluate-commands %sh{
         # Code highlighting
         face global value     ${b_orange}
         face global type      ${b_yellow}
-        face global variable  ${b_blue}
+        face global variable  ${b_aqua}
         face global module    ${f_yellow}
         face global function  ${b_blue}
         face global string    ${b_green}
         face global keyword   ${b_purple}
-        face global operator  ${b_aqua}
+        face global operator  ${fg4}
         face global attribute ${b_orange}
         face global comment   ${b_gray}+a
         face global meta      ${b_red}
