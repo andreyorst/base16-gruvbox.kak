@@ -57,7 +57,7 @@ evaluate-commands %sh{
         face global function  ${b_blue}
         face global string    ${b_green}
         face global keyword   ${b_purple}
-        face global operator  ${fg4}
+        face global operator  ${b_blue}
         face global attribute ${b_orange}
         face global comment   ${b_gray}+a
         face global meta      ${b_red}

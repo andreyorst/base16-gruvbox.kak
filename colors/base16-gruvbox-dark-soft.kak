@@ -57,7 +57,7 @@ evaluate-commands %sh{
         face global function  ${b_blue}
         face global string    ${b_green}
         face global keyword   ${b_purple}
-        face global operator  ${fg4}
+        face global operator  ${b_blue}
         face global attribute ${b_orange}
         face global comment   ${b_gray}+a
         face global meta      ${b_red}
@@ -76,7 +76,7 @@ evaluate-commands %sh{
         face global bullet        ${b_red}
         face global list          ${fg0}
 
-        face global Default            ${fg0},${bg0_soft}
+        face global Default            ${fg0_soft},${bg0_soft}
         face global PrimarySelection   default,${bg2}+g
         face global SecondarySelection default,${bg1}+g
         face global PrimaryCursor      ${bg0},${fg0}+fg
