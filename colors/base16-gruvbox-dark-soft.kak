@@ -100,5 +100,6 @@ evaluate-commands %sh{
         face global MatchingChar       default,${bg2}
         face global BufferPadding      ${bg0_soft},${bg0_soft}
         face global Whitespace         ${bg2}+f
+        face global WrapMarker         ${bg2}+f
     "
 }
