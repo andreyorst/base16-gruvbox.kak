@@ -1,3 +1,5 @@
+# THIS PLUGIN IS NOT ACTIVELY MAINTAINED. FOR MORE DETAILS PLEASE SEE [THIS DISCOURSE POST](https://discuss.kakoune.com/t/maintainance-warning-and-request)
+
 # base16-gruvbox.kak
 Base16 Gruvbox Dark colorscheme for Kakoune editor. Based on Vim's base16-gruvbox-dark themes. Includes hard, medium and soft variants.
 
